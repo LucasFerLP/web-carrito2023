@@ -59,8 +59,7 @@ boton.addEventListener('click', () => {
 
 // Función para agregar un producto al carrito
 function agregarAlCarrito(indice) {
-    // Aquí puedes implementar la lógica para agregar el producto al carrito.
-    // Puedes acceder al producto específico en 'productos[indice]'.
+  
     alert(`El producto "${productos[indice].nombre}" se ha agregado al carrito.`);
 }
 class Contacto{
